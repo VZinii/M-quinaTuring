@@ -83,7 +83,6 @@ public class MaquinaTuring {
 
             for (int i=0; i < quantidadeEstadosFinais; i++){
                 numeroEstadoFinal = Integer.parseInt(dados[i+1]);
-                System.out.println(numeroEstadoFinal);
                 estados.get(numeroEstadoFinal).setFinaL(true);
             }
 
